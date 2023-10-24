@@ -15,10 +15,7 @@ body{
 /* nav start */
 #nav{
     position: absolute !important;
-    top: 30px;
-   
     width: 100%;
-    
     z-index: 99;
 }
 nav ul li{

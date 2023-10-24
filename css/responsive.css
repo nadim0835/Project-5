@@ -28,6 +28,7 @@
 }
 .navbar-collapse {
     background: red;
+    padding-bottom:30px ;
 }
 nav .last {
     display: none;

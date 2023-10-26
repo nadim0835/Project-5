@@ -394,8 +394,7 @@ footer .flex-btn a:last-child {
     margin-left: 14%;
 }
 /* footer  end  */
-};
-
+}
 @media (min-width:576px) and (max-width:768px){
     /* banner staart */
     #banner .three {
@@ -435,22 +434,22 @@ nav .last {
     padding-bottom: 90px;
 }
 nav ul li {
-    margin-left: 38%;
-    margin-bottom: -47px;
+    margin-left: 46%;
+    margin-bottom: -46px;
 }
 /* banner start */
 #banner h1 {
     width: auto;
-   padding-top: 187px;
-    font-size: 25px;
+    padding-top: 187px;
+    font-size: 42px;
 }
 #banner p {
-    font-size: 18px;
+    font-size: 23px;
     width: auto;
 }
 #banner .item-container a {
-    margin-left: 0;
-    margin-top: 0;
+    margin-left: 10px;
+
 }
 /* banner end */
 /* grow  stert */
@@ -461,7 +460,8 @@ nav ul li {
     text-align: center !important;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     transition: all .3s linear;
-    padding: 13px;
+    padding: 90px 13px;
+    margin-bottom: 10px;
 }
 #grow .item:hover{
     transform: scale(1.01);
@@ -473,7 +473,7 @@ nav ul li {
     margin-top: 40px;
 }
 #grow .item h3 {
-    font-size: 20px;
+    font-size: 30px;
 }
 /* grow end */
 /* connect start */
@@ -601,7 +601,7 @@ nav ul li {
     margin-top: 20px;
     margin-bottom: 0;
     transition: all .5s ease;
-
+    padding: 80px 0;
 }
 #completed .item .main:hover {
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
@@ -654,7 +654,8 @@ completed .item_sec {
 }
 #trusted .col_item {
      margin-top: 0px; 
-     transition: all .4s linear; 
+     transition: all .4s linear;
+     padding: 80px 0; 
 }
 #trusted .col_item:hover{
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
@@ -668,7 +669,7 @@ completed .item_sec {
 /* our stsrt */
 #Our {
     padding-top: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
 }
 #Our .flex {
     flex-direction: column;
@@ -689,30 +690,30 @@ completed .item_sec {
     justify-content: center;
 }
 #Our .flex .flex_left p {
-    font-size: 15px;
+    font-size: 20px;
     width: auto;
     margin-top: 30px;
     margin-bottom:0;
     text-align: center;
 }
 .caros_btn_left {
-    left: 25%;
-    top: 615px;
+    left: 42%;
+    top: 102%;
     height: 40px;
 }
 .caros_btn_right {
     left: 52%;
-    top: 615px;
+    top: 102%;
     height: 40px;
 }
 #Our .flex .flex_left h5 {
     display: block;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 94px;
+    margin-bottom: 30px;
 }
  #Our .imgs_rigt{
-    width: 100%;
+    width: 50%;
  }
  /* out end */
  /* lets sesason start */
@@ -746,19 +747,21 @@ footer {
 }
 footer .flex {
     padding-top: 40px;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 footer .flex .box-one {
-    width: 100%;
+    width: 50%;
 }footer .flex .box-tow {
-    width: 100%;
+    width: 30%;
 }
 footer .flex .box-three {
-    width: 100%;
+    width: 70%;
 }
 footer .flex .box-four {
-    width: 100%;
+    width: 30%;
 }
 footer .flex .box-one p {
     font-size: 17px;
@@ -781,7 +784,8 @@ footer .flex-btn p {
   
     font-size: 16px;
     width: 100%;
-    margin-left: 3%;
+    margin-left: 0%;
+    text-align: center;
 }
 footer .flex-btn a{
     margin: 0;
@@ -789,7 +793,15 @@ footer .flex-btn a{
 footer .flex-btn a:last-child {
    
     font-size: 16px;
-    margin-left: 14%;
+    margin-left: 0%;
+}
+footer .last_item{
+    padding:0 4%;
+    display: flex;
+    justify-content: space-between
 }
 /* footer  end  */
-};
+}
+
+
+
